@@ -40,7 +40,6 @@ function SinglePizza({ pizza }) {
 }
 
 export default function PizzaList({ pizzas }) {
-  console.log({ pizzas });
   return (
     <PizzaGridStyles>
       {pizzas.map((pizza) => (
